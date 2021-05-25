@@ -7,9 +7,13 @@
 * Packets
 * IP addresses (IPv4 and IPv6)
 * Routers and Routing
-* Domains and DNS
+* Domains and DNS   
 
 ### **Explain** how each technology has contributed to the development of the internet. (6)
+
+The internet or "internetworking" is essentially a "packet switching" network for data. _Packets_ can be defined as a block of data shared across a network and are small segments of a larger message. Theoretically speaking, one computer could send data to another computer as a larger message, or unbroken line of bits. However, this becomes impractical when more than two computers are involved, as the long unbroken line of bits would have to finish sending before a third computer could send more information. Because of packet switching, a block of data can be transmitted into tiny packets and take different network paths to the same destination. This enables multiple connections to take place over the same network at the same time. 
+
+So as to make sure that the packets do not get lost during transmission, the essential components of a packet consists of two main portions; a packet header, and a payload. The header contains information about the packet, such as the origins and destination _IP addresses_ (which works like computer's mailing address). 
 
 <br>
 
